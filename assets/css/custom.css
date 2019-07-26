@@ -83,7 +83,7 @@ main{
 .footer{
 	border: none;
 	box-shadow: none;
-	padding: 2em 8vw 4em 8vw;
+	padding: 0 8vw 4em 8vw;
 	background-color: white;
 	color: #000;
 }
