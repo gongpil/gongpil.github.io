@@ -1,6 +1,12 @@
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
 	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 }
+
+::selection {    
+    background: #3562ff;
+}
+
+/* header */
 .header{
 	border: none;
 	box-shadow: none;
@@ -28,18 +34,6 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	color: #3562ff;
 }
 
-main{
-	margin-top: 6em;
-}
-
-.posts__post{
-	padding: 1em 1em 0 1em;
-}
-
-::selection {    
-    background: #3562ff;
-}
-
 .header__list>*{
 	font-size: 1em;
 }
@@ -51,6 +45,15 @@ main{
 .header__list li.active a, .header__list li:hover *{
 	color: #3562ff;
 	display: block;
+}
+
+/* main */
+main{
+	margin-top: 6em;
+}
+
+.posts__post{
+	padding: 1em 1em 0 1em;
 }
 
 /* footer */
