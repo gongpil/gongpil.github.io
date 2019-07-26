@@ -94,6 +94,10 @@ main{
 	padding: 2em 8vw;
 }
 
+.grid-xlarge{
+	width: 100% !important;
+}
+
 /*커서*/
 /*
 .cursor {
