@@ -1,4 +1,4 @@
-html, body, h1, h2, h3, h4, h5, h6{
+html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
 	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 }
 .header{
@@ -76,6 +76,10 @@ main{
 	text-align: right;
 	color: #ced4da;
 	margin-top: -32px;
+}
+
+.post__content{
+	border-top: 0;
 }
 
 /*커서*/
