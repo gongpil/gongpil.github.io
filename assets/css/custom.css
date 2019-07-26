@@ -94,7 +94,7 @@ main{
 	padding: 2em 8vw;
 }
 
-.grid-xlarge{
+.grid-xlarge, #markdown p img{
 	width: 100% !important;
 }
 
