@@ -4,9 +4,13 @@ pagination:
   enabled: true
 ---
 <!-- The main content area -->
+
 <div class="posts">
   <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+
+    ???????????????????????????????????
+    <div>
+      
 
       {% for post in paginator.posts %}
         <!-- The tag below includes the markup for each post - partials/post-card.html -->
@@ -16,5 +20,4 @@ pagination:
     </div>
   </div>
 
-  {% include pagination.html %}
 </div>
