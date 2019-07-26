@@ -1,21 +1,38 @@
 ---
 layout: default
-pagination:
-  enabled: true
 ---
-<!-- The main content area -->
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+<div id="main">
+  <section>
+    {% for post in site.posts limit:1 %}
+      <header>
+        <h1>{{ post.title }}</h1>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      </header>
+      <section>
+        {{ post.content }}
+        <p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></p>
+      </section>
+    {% endfor %}
+  </section>
 
-      {% for post in paginator.posts %}
-
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
-
+  <section>
+    <div class="row">
+      {% for post in site.posts offset:1 %}
+        <article class="{% cycle '6u', '6u$' %} 12u(small)">
+          <header>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          </header>
+          <section>
+            {{ post.excerpt }}
+          </section>
+          <footer>
+            <ul class="actions">
+              <li><a href="{{ post.url }}" class="button">Read More</a></li>
+              <li class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="button"><strong>&#9998;</strong> Edit post</a></li>
+            </ul>
+          </footer>
+        </article>
       {% endfor %}
     </div>
-  </div>
-
-  {% include pagination.html %}
+  </section>
 </div>
