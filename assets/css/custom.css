@@ -98,6 +98,11 @@ main{
 .grid-xlarge, #markdown p img{
 	width: 100% !important;
 }
+@media (min-width: 768px){
+	.grid-xlarge{
+		margin: 0 1em;
+	}
+}
 
 #markdown br{
 	display: block;
