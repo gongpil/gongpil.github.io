@@ -76,17 +76,22 @@ main{
 .footer__container ul a{
 	color: #000;
 	text-decoration: underline;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .copyright{
 	text-align: right;
 	color: #ced4da;
-	margin-top: -32px;
+	margin-top: -1.2rem;
+	font-size: 0.9rem;
 }
 
 .post__content{
 	border-top: 0;
+}
+
+.about{
+	padding: 2em 8vw;
 }
 
 /*커서*/
