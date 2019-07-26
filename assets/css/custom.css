@@ -57,6 +57,28 @@ main{
 	padding: 1em 1em 0 1em;
 }
 
+.post__content{
+	border-top: 0;
+}
+
+.about{
+	padding: 2em 8vw;
+}
+
+.grid-xlarge, #markdown p img{
+	width: 100% !important;
+}
+
+@media (min-width: 768px){
+	.grid-xlarge{
+		padding: 0 1em;
+	}
+}
+
+#markdown br{
+	display: block;
+}
+
 /* footer */
 .footer{
 	border: none;
@@ -86,52 +108,4 @@ main{
 	margin-top: -1.2rem;
 	font-size: 0.9rem;
 }
-
-.post__content{
-	border-top: 0;
-}
-
-.about{
-	padding: 2em 8vw;
-}
-
-.grid-xlarge, #markdown p img{
-	width: 100% !important;
-}
-@media (min-width: 768px){
-	.grid-xlarge{
-		padding: 0 1em;
-	}
-}
-
-#markdown br{
-	display: block;
-}
-/*커서*/
-/*
-.cursor {
-  position: absolute;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.circle-cursor-outer {
-  width: 80px;
-  height: 80px;
-  border: 1px solid rgba(0,0,0,0.2);
-  z-index: 12000;
-  opacity: 0.5;
-}
-
-.circle-cursor-inner {
-  width: 5px;
-  height: 5px;
-  left: -2.5px;
-  top: -2.5px;
-  z-index: 11000;
-  background: #3562ff;
-}*/
 
