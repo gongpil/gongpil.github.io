@@ -1,0 +1,43 @@
+html, body{
+	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif;
+}
+.header{
+	border: none;
+	box-shadow: none;
+	padding: 3em 8vw;
+}
+
+.intro{
+	padding: 1em 8vw;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.header__title{
+	font-size: 32px;
+}
+
+main{
+	margin-top: 6em;
+}
+
+.posts__post{
+	padding: 1em 1em 0 1em;
+}
+
+::selection {    
+    background: #3562ff;
+}
+
+.header__list>*{
+	font-size: 1em;
+}
+
+.header__list li *{
+	transition: color .5s;
+}
+
+.header__list li.active a, .header__list li:hover *{
+	color: #3562ff;
+	display: block;
+}
