@@ -3,12 +3,6 @@ layout: default
 ---
 <section class="post">
   <div>
-    <div class="post__header section-padding--double">
-      <div class="grid-small">
-        <h2>{{ page.title }}</h2>
-      </div>
-    </div>
-
     {% if page.image %}
       <div class="post__img">
         <div>
@@ -16,6 +10,12 @@ layout: default
         </div>
       </div>
     {% endif %}
+    
+    <div class="post__header section-padding--double">
+      <div class="grid-small">
+        <h2>{{ page.title }}</h2>
+      </div>
+    </div>
 
     <div class="post__content section-padding">
       <div class="grid">

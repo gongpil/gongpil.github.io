@@ -1,10 +1,12 @@
-html, body{
-	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif;
+html, body, h1, h2, h3, h4, h5, h6{
+	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
 }
 .header{
 	border: none;
 	box-shadow: none;
 	padding: 3em 8vw;
+	background-color: white;
+	color: #000;
 }
 
 .intro{
@@ -47,8 +49,37 @@ main{
 	display: block;
 }
 
-/*커서*/
+/* footer */
+.footer{
+	border: none;
+	box-shadow: none;
+	padding: 2em 12vw 8em 12vw;
+	background-color: white;
+	color: #000;
+}
+.footer__container{
+	margin: 0;
+}
 
+.footer__container ul{
+	list-style: none;
+	padding: 0;
+}
+
+.footer__container ul a{
+	color: #000;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+.copyright{
+	text-align: right;
+	color: #ced4da;
+	margin-top: -32px;
+}
+
+/*커서*/
+/*
 .cursor {
   position: absolute;
   height: 10px;
@@ -73,5 +104,5 @@ main{
   top: -2.5px;
   z-index: 11000;
   background: #3562ff;
-}
+}*/
 
