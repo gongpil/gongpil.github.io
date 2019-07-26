@@ -24,6 +24,10 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	font-size: 28px;
 }
 
+.header__title:hover{
+	color: #3562ff;
+}
+
 main{
 	margin-top: 6em;
 }
