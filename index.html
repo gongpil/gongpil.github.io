@@ -4,6 +4,10 @@ pagination:
   enabled: true
 ---
 <!-- The main content area -->
+<div class="intro">
+  Crafting digital experiences that <br>
+  help user.
+</div>
 <div class="posts">
   <div class="grid-xlarge">
     <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
@@ -19,3 +23,9 @@ pagination:
 
   {% include pagination.html %}
 </div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+      $('.header__list li:first-child').addClass("active");
+  });
+</script>
