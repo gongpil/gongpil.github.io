@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Disrupt Raw Denim"
+title: "한글로 써보자"
 date: 2019-07-26
 description: 
 image: /assets/images/placeholder-15.jpg
@@ -9,4 +9,4 @@ tags:
   - Squid
   - Mixtape
 ---
-Umami thundercats 90's chia tumblr. [Dreamcatcher](http://thomasvaeth.com/) cronut neutra forage lo-fi. +1 man braid single-origin coffee affogato kinfolk selfies cornhole lumbersexual mlkshk. Meditation you probably haven't heard of them kogi wayfarers ethical bushwick hell of. 
+한글로 써야지
