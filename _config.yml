@@ -2,7 +2,7 @@
 email: eungggggg@gmail.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics: 
+# google_analytics: 
 
 name: Eunji Jeong
 title: Portfolio
@@ -10,7 +10,7 @@ description: >
   Eunji Jeong - a Product Designer's Portfolio
 url: https://eungggggg.github.io
 twitter_username: eungggggg
-default_img: /assets/images/seo.jpg
+# default_img: /assets/images/seo.jpg
 social:
   # - name: twitter
   #   url: https://twitter.com/eungggggg

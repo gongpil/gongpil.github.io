@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+/* 텍스트 설정 */
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
-	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
+	font-family: 'Oswald', sans-serif;
 	line-height: 1.6;
+
 }
 
+/* 선택 영역 색상 변경 */
 ::selection {    
     background: #3562ff;
 }
 
-/* header */
+/* -------------- header -------------- */
 .header{
 	border: none;
 	box-shadow: none;
@@ -16,30 +20,32 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	color: #000;
 }
 
-.intro{
-	padding: 1em 8vw;
+.intro
+{	padding: 1em 8vw;
 	font-size: 3em;
 	font-weight: bold;
 }
+
+/* 모바일 대응 - intro 텍스트 크기 */
 @media (max-width: 768px){
 	.intro{
 		font-size: 2.5em;
 	}
 }
 
+/* 로고 */
 .header__title{
 	font-size: 28px;
+	transition: color .5s;
 }
 
 .header__title:hover{
 	color: #3562ff;
 }
 
-.header__list>*{
+/* 네비게이션 메뉴*/
+.header__list *{
 	font-size: 1em;
-}
-
-.header__list li *{
 	transition: color .5s;
 }
 
@@ -48,7 +54,7 @@ html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdo
 	display: block;
 }
 
-/* main */
+/* -------------- main -------------- */
 main{
 	margin-top: 6em;
 }
@@ -79,7 +85,7 @@ main{
 	display: block;
 }
 
-/* footer */
+/* -------------- footer -------------- */
 .footer{
 	border: none;
 	box-shadow: none;

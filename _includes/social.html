@@ -1,7 +1,19 @@
 {% if site.social %}
-  <ul>
+  <ul class="footer__social">
     {% for social in site.social %}
-      <li><a href="{{ social['url'] }}" target="_blank">{{ social['name'] }}</i></a></li>
+
+      <li>
+      	<a href="{{ social['url'] }}" target="_blank">
+      		<i class="fa fa-{{ social['name'] }}"></i>
+      	</a>
+      </li>
+
+      <!-- sns 텍스트로 표시 -->
+      <!-- <li>
+      	<a href="{{ social['url'] }}" target="_blank">
+      		{{ social['name'] }}
+      	</a>
+      </li> -->
     {% endfor %}
   </ul>
 {% endif %}
